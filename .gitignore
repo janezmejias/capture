@@ -1,0 +1,28 @@
+# Archivos compilados
+/target/
+
+# Remove Cargo.lock from .gitignore if creating an executable, leave it for libraries
+# Más información sobre Cargo.lock y .gitignore en https://doc.rust-lang.org/cargo/guide/cargo-toml-vs-cargo-lock.html
+Cargo.lock
+
+# Archivos de backup creados por el editor
+*.swp
+*.swo
+
+# Archivos de la carpeta .idea (Rust plugin para IntelliJ IDEA o similares)
+.idea/
+
+# Para proyectos que utilizan `dotenv`, excluye el archivo .env
+.env
+
+# Archivos DS_Store que se crean en macOS
+.DS_Store
+
+# Directorio de documentación generada
+/doc/
+
+# Archivos de registro
+*.log
+
+# Archivos temporales
+*.tmp
